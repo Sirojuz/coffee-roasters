@@ -198,3 +198,251 @@ section{
     cursor: pointer;
     text-transform: uppercase;
 }
+
+.menu {
+    max-width: 1920px;
+}
+
+.menu_wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.menu_in {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.our_menu {
+    padding-top: 96px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;   
+}
+
+.menu_border_bottom {
+    display: block;
+    margin: 24px auto;
+}
+
+.menu_tittle {
+    width: 474px;
+    height: 48px;
+    margin: 0 auto 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.menu_btn {
+    max-width: 145px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_btn a button {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color:#18171A;
+    color: #fff;
+    transition: all 0.7s ease;
+    margin-bottom: 48px;
+}
+
+.menu_btn a button:hover {
+    transform: scale(1.3);
+    box-shadow: 0 0 10px #d20b11;
+    border-radius: 0;
+}
+
+.menu_card {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 96px;
+}
+
+.menu_cards_left {
+    max-width: 550px;
+    margin-right: 30px;
+}
+
+.menu_card_in {
+    cursor: pointer;
+    display: flex;
+    margin-bottom: 24px;
+    transition: all 0.5s ease;
+}
+
+.menu_card_in:hover {
+    border-radius: 5px;
+    transform: scale(1.08);
+    box-shadow: 0 0 5px #00000049
+       
+}
+
+.menu_left_img img {
+    cursor: pointer;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin-right: 24px;
+    transition: all 0.5s ease;
+}
+
+
+
+.menu_left_tittle {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menu_left_tittle h1 {
+    width: 352px;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+.menu_left_tittle p {
+    width: 420px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+}
+/* menu_finesh */
+
+/* coment_start */
+
+.coment_wrapper {
+    background-image: url(../images/bg_section.png);
+    background-size: cover;
+}
+
+.coment_wrapper h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    padding-top: 96px;
+}
+
+.coment_wrapper img {
+    display: block;
+    margin: 24px auto 24px;
+}
+
+.coment_wrapper p {
+    width: 735px;
+    height: 72px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;   
+    color: #FFFFFF;
+    margin-bottom: 24px;   
+}
+
+.coment_wrapper h4 {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 54px;
+}
+
+.around {
+    width: 53px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 103px;
+}
+
+.news_wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.news_in {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.news_in h1 {
+    text-align: center;
+    padding-top: 96px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+.news_border {
+    display: block;
+    width: 189px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.news_p {
+    width: 474px;
+    height: 48px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.news_card_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news_cards  {
+    width: 352px;
+    cursor: pointer;
+    transition: all 0.7s ease;
+}
+
+/* .news_cards:hover {
+    transform: scale(1.08);
+    border-radius: 5px;
+    box-shadow: 0 0 10px #18171A;
+}
+
+.news_cards img:hover {
+    border-radius: 5px;
+} */
+
+.news_cards h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase; 
+    margin-top: 24px;
+}
+
+.news_cards p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px; 
+    margin-bottom: 24px;
+}
+
+.news_cards h4 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+}
