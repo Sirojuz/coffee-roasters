@@ -199,6 +199,7 @@ section{
     text-transform: uppercase;
 }
 
+/* menu_start */
 .menu {
     max-width: 1920px;
 }
@@ -206,6 +207,7 @@ section{
 .menu_wrapper {
     max-width: 1440px;
     margin: 0 auto;
+    background: #EEEEEE;
 }
 
 .menu_in {
@@ -294,8 +296,6 @@ section{
     transition: all 0.5s ease;
 }
 
-
-
 .menu_left_tittle {
     display: flex;
     justify-content: space-between;
@@ -368,9 +368,14 @@ section{
     padding-bottom: 103px;
 }
 
+/* Coment_finesh */
+
+/* news_start */
+
 .news_wrapper {
     max-width: 1440px;
     margin: 0 auto;
+    background: #EEEEEE;
 }
 
 .news_in {
@@ -445,4 +450,92 @@ section{
     font-weight: 400;
     font-size: 12px;
     line-height: 24px;
+}
+
+.footer_top_wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(../images/footer_top_bgi.png);
+    background-size: cover;
+}
+
+.footer_top_in {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.footer_top_in h1 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #fff;
+    padding-top: 96px;
+    margin-bottom: 24px;
+}
+
+.footer_border_bottom {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.footer_tittle {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+
+.footer_top_cards {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 96px;
+}
+
+
+.footer_card_img_1 {
+    width: 245px;
+    height: 239px;    
+    background-image: url(../images/foot_top_img.png);
+    border-radius: 50%;
+}
+
+.footer_card_img_2 {
+    width: 245px;
+    height: 239px;    
+    background-image: url(../images/foot_top_img_2.png);
+    border-radius: 50%;
+}
+
+.footer_card_img_3 {
+    width: 245px;
+    height: 239px;    
+    background-image: url(../images/foot_top_img_3.png);
+    border-radius: 50%;
+}
+
+.footer_cards_in h2 {
+    margin: 24px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+}
+
+.footer_cards_in p {
+    width: 256px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer_p_3 {
+    max-width: 234px;
 }
