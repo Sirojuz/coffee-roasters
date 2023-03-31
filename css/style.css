@@ -15,6 +15,8 @@ main{
     max-width: 1440px;
     margin: 0 auto;
     background-image: url(../images/main_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 header{
     max-width: 1440px;
@@ -91,6 +93,7 @@ section{
     margin: 0 auto;
     background-image: url(../images/bg_coffee.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 .about_wrapper{
     max-width: 1120px;
@@ -158,6 +161,8 @@ section{
     max-width: 1440px;
     margin: 0 auto;
     background-image: url(../images/about_footer_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .about_footer_in{
     text-align: center;
@@ -322,7 +327,8 @@ section{
 
 .coment_wrapper {
     background-image: url(../images/bg_section.png);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .coment_wrapper h1 {
@@ -457,7 +463,8 @@ section{
     max-width: 1440px;
     margin: 0 auto;
     background-image: url(../images/footer_top_bgi.png);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .footer_top_in {
