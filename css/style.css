@@ -17,6 +17,7 @@ main{
     background-image: url(../images/main_bg.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 header{
     max-width: 1440px;
@@ -40,6 +41,9 @@ nav ul{
     font-size: 16px;
     line-height: 24px;
     color: #fff;
+}
+.burger{
+    display: none;
 }
 
 /* MAIN PAGE */
@@ -85,6 +89,11 @@ section{
     color: #fff;
     cursor: pointer;
 }
+.main_wrapper button:hover{
+    background-color: #FFFFFF;
+    color: #111111;
+    transition: all 0.7s ease;
+}
 
 /* ABOUT US */
 
@@ -102,6 +111,9 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.about_left{
+    orphans: 1;
 }
 .about_left_item{
     display: flex;
@@ -130,6 +142,9 @@ section{
     margin-left: 16px;
 }
 
+.about_right{
+    order: 2;
+}
 .about_right_item{
     display: flex;
     align-items: center;
@@ -163,6 +178,7 @@ section{
     background-image: url(../images/about_footer_bg.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 .about_footer_in{
     text-align: center;
@@ -202,6 +218,11 @@ section{
     color: #fff;
     cursor: pointer;
     text-transform: uppercase;
+}
+.about_footer_in button:hover{
+    background-color: #FFFFFF;
+    color: #111111;
+    transition: all 0.7s ease;
 }
 
 /* menu_start */
@@ -666,4 +687,112 @@ section{
 .footer_icons_item:hover{
     background-color: #EEEEEE;
     color: #252525;
+}
+
+/* PHONE */
+
+@media (max-width: 575px) {
+    .header_logo{
+        margin-left: 40px;
+    }
+    nav ul{
+        display: none;
+    }
+    .burger{
+        display: block;
+        margin-right: 40px;
+    }
+    .main_wrapper{
+        margin: 0 auto;
+        max-width: 495px;
+        margin-top: 190px;
+    }
+    .main_wrapper h1{
+        font-size: 40px;
+    }
+    .main_wrapper p{
+        font-size: 24px;
+        line-height: 48px;
+    }
+    .main_wrapper button{
+        font-size: 16px;
+        line-height: 48px;
+    }
+    .about_us{
+        background-image: url(../images/bg_coffee.png);
+        background-position: 29% 50%;
+        background-size: cover;
+        position: relative;
+    }
+    .about_wrapper{
+        display: block;
+    }
+    .about_right{
+        max-width: 395px;
+        margin-left: 40px;
+        margin-bottom: -40px;
+    }
+    .about_left{
+        max-width: 395px;
+        margin-left: 24px;
+    }
+    .about_left_item_img{
+        order: 1;
+    }
+    .about_left_item_tittle{
+        order: 2;
+        margin-left: 16px;
+    }
+    .about_left_item_tittle h1{
+        text-align: left;
+    }
+    .about_left_item_tittle p{
+        text-align: left;
+    }
+   
+    .about_footer_in h1{
+        max-width: 342px;
+        margin: 0 auto;
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .about_footer_in p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about_footer_in button{
+        font-size: 16px;
+        line-height: 48px;
+    }
+
+    /* 
+    Sizga Joy
+    Sizga Joy
+    Sizga Joy
+    Sizga Joy
+    Sizga Joy
+    Sizga Joy
+    Sizga Joy
+    Sizga Joy
+    Sizga Joy
+    Sizga Joy
+    Sizga Joy
+    */
+    .footer_bottom{
+        max-width: 575px;
+        margin: 0 auto;
+    }
+    .footer_bottom_in{
+        max-width: 474px;
+        margin: 0 auto;
+    }
+    .footer_bottom_in h1{
+        font-size: 40px;
+    }
+    .footer_nav{
+        margin: 0 40px;
+    }
+    .footer_nav_item{
+        display: none;
+    }
 }
