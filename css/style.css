@@ -255,7 +255,7 @@ section{
 }
 
 .menu_tittle {
-    width: 474px;
+    max-width: 474px;
     height: 48px;
     margin: 0 auto 48px;
     font-weight: 400;
@@ -313,10 +313,7 @@ section{
     box-shadow: 0 0 5px #00000049       
 }
 
-.menu_left_img img {
-    cursor: pointer;
-    width: 72px;
-    height: 72px;
+.menu_left_img img { 
     border-radius: 50%;
     margin-right: 24px;
     transition: all 0.5s ease;
@@ -325,24 +322,23 @@ section{
 .menu_left_tittle {
     display: flex;
     justify-content: space-between;
-    
 }
 
-
-.menu_left_tittle h1 {
-    width: 352px;
+.menu_items h1 {
+    max-width: 410px;
     font-weight: 400;
     font-size: 16px;
     text-transform: uppercase;
     line-height: 24px;
 }
 
-.menu_left_tittle p {
+.menu_items p {
     width: 410px;
     font-weight: 400;
     font-size: 12px;
     line-height: 24px;
 }
+
 /* menu_finesh */
 
 /* coment_start */
@@ -369,7 +365,7 @@ section{
 
 
 .coment_wrapper p {
-    width: 735px;
+    max-width: 735px;
     height: 72px;
     margin: 0 auto;
     font-weight: 400;
@@ -390,7 +386,7 @@ section{
 }
 
 .around {
-    width: 53px;
+    max-width: 53px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -422,13 +418,13 @@ section{
 }
 .news_border {
     display: block;
-    width: 189px;
+    max-width: 189px;
     margin: 0 auto;
     margin-bottom: 24px;
 }
 
 .news_p {
-    width: 474px;
+    max-width: 474px;
     height: 48px;
     margin: 0 auto;
     font-weight: 400;
@@ -444,7 +440,7 @@ section{
 }
 
 .news_cards  {
-    width: 352px;
+    max-width: 352px;
     cursor: pointer;
     transition: all 0.7s ease;
     padding-bottom: 96px;
@@ -540,7 +536,7 @@ section{
 }
 
 .footer_cards_in p {
-    width: 256px;
+    max-width: 256px;
     margin: 0 auto;
     text-align: center;
     color: #fff;
@@ -762,11 +758,11 @@ section{
    }
 
    .menu_left_tittle h1 {
-    width: 317px;
+    max-width: 317px;
    }
 
    .menu_left_tittle p {
-    width: 317px;
+    max-width: 317px;
    }
 
    .coment {
@@ -782,7 +778,7 @@ section{
 
    
    .coment_wrapper p {
-    width: 495px;
+    max-width: 495px;
     height: 96px;
    }
 
@@ -795,12 +791,12 @@ section{
    }
 
    .news_cards {
-    width: 495px;
-    margin: 0 auto;
+    max-width: 495px;
+    margin: 0 40px;
    }
 
    .news_cards img {
-    width: 495px;
+    width: 100%;
    }
 
    /* footer {
@@ -815,12 +811,17 @@ section{
 
    .footer_top_cards {
     display: block;
+    margin: 0 40px;
    }
 
    .footer_cards_in {
-    width: 245px;
+    max-width: 245px;
     margin: 0 auto;
     margin-top: 48px;
+   }
+
+   .footer_cards_in img {
+    width: 100%;
    }
 
    
