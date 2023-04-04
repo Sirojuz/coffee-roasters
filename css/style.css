@@ -41,6 +41,7 @@ nav ul{
     font-size: 16px;
     line-height: 24px;
     color: #fff;
+    white-space: nowrap;
 }
 .burger{
     display: none;
@@ -673,6 +674,101 @@ section{
     color: #252525;
 }
 
+/* TABLET */
+
+@media (max-width: 1020px) and (min-width: 576px){
+    .header_logo{
+        margin-left: 40px;
+    }
+    nav ul{
+        display: none;
+    }
+    .burger{
+        display: block;
+        margin-right: 40px;
+    }
+    .main_wrapper{
+        margin: 0 auto;
+        max-width: 686px;
+        margin-top: 203px;
+    }
+    .main_wrapper h1{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 96px;
+    }
+    .main_wrapper p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 48px;
+        text-align: center;
+    }
+    .main_wrapper button{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 48px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 48px;
+    }
+    .about_us{
+        background-image: url(../images/bg_coffee.png);
+        background-position: 30% 50%;
+        background-size: cover;
+        position: relative;
+    }
+    .about_wrapper{
+        display: block;
+    }
+    .about_right{
+        max-width: 395px;
+        margin-left: 40px;
+    }
+    .about_left{
+        max-width: 395px;
+        margin-left: 24px;
+    }
+    .about_left_item_img{
+        order: 1;
+    }
+    .about_left_item_tittle{
+        order: 2;
+        margin-left: 16px;
+    }
+    .about_left_item_tittle h1{
+        text-align: left;
+    }
+    .about_left_item_tittle p{
+        text-align: left;
+    }
+
+    /* SIZ UCHUN JOY */
+    /* SIZ UCHUN JOY */
+    /* SIZ UCHUN JOY */
+    /* SIZ UCHUN JOY */
+    /* SIZ UCHUN JOY */
+    /* SIZ UCHUN JOY */
+    /* SIZ UCHUN JOY */
+    /* SIZ UCHUN JOY */
+    /* SIZ UCHUN JOY */
+    /* SIZ UCHUN JOY */
+    /* SIZ UCHUN JOY */
+    /* SIZ UCHUN JOY */
+
+    .footer_bottom{
+        background-size: cover;
+        background-position: center;
+    }
+    .footer_nav{
+        margin: 0 40px;
+    }
+    .footer_nav_item{
+        display: none;
+    }
+}
+
 /* PHONE */
 
 @media (max-width: 575px) {
@@ -803,9 +899,9 @@ section{
     width: 495px;
    }
 
-   /* footer {
-    max-width: 575px;
-   } */
+    footer {
+        max-width: 575px;
+    }
 
    .footer_top_wrapper {
     background-image: url(../images/footer_top_bgi_mobile.png);
@@ -830,7 +926,7 @@ section{
     }
     .footer_bottom_in{
         max-width: 474px;
-        margin: 0 auto;
+        margin: 0 40px;
     }
     .footer_bottom_in h1{
         font-size: 40px;
