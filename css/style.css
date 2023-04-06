@@ -12,7 +12,6 @@ html{
 }
 
 main{
-    max-width: 1440px;
     margin: 0 auto;
     background-image: url(../images/main_bg.png);
     background-repeat: no-repeat;
@@ -20,7 +19,7 @@ main{
     background-size: cover;
 }
 header{
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 48px;
     display: flex;
@@ -50,7 +49,7 @@ nav ul{
 /* MAIN PAGE */
 
 section{
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
 }
 .main_wrapper{
@@ -99,11 +98,12 @@ section{
 /* ABOUT US */
 
 .about_us{
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     background-image: url(../images/bg_coffee.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 .about_wrapper{
     max-width: 1120px;
@@ -174,7 +174,7 @@ section{
 /* about_footer */
 
 .about_footer{
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     background-image: url(../images/about_footer_bg.png);
     background-repeat: no-repeat;
@@ -228,11 +228,12 @@ section{
 
 /* menu_start */
 .menu {
-    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .menu_wrapper {
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     background: #EEEEEE;
 }
@@ -345,9 +346,11 @@ section{
 /* coment_start */
 
 .coment_wrapper {
+    width: 100%;
     background-image: url(../images/bg_section.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .coment_wrapper h1 {
@@ -399,7 +402,7 @@ section{
 /* news_start */
 
 .news_wrapper {
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     background: #EEEEEE;
 }
@@ -480,11 +483,12 @@ section{
 }
 
 .footer_top_wrapper {
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     background-image: url(../images/footer_top_bgi.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 }
 
 .footer_top_in {
@@ -551,7 +555,7 @@ section{
 }
 
 .footer_bottom{
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     background: #111111;
 }
@@ -811,6 +815,7 @@ section{
     .about_left{
         max-width: 395px;
         margin-left: 24px;
+        gap: 40px;
     }
     .about_left_item_img{
         order: 1;
